@@ -14,4 +14,6 @@ const getRandomTukkomi = function() {
   return options[mathUtils.getRandomNumber(0, options.length)];
 };
 
-module.exports = getRandomTukkomi;
+module.exports = {
+  getRandomTukkomi,
+};
